@@ -6,7 +6,6 @@ const light = {
     width: "150px",
     height: "150px",
     borderRadius: "100%",
-    backgroundColor: "black",
 }
 
 function TrafficLight() {
@@ -43,7 +42,7 @@ function TrafficLight() {
 
     return (
         <>
-            <div style={{ ...light, ...{ backgroundColor: "red" }, ...redBoxShadow }} onClick={handleClickRed}></div >
+            <div style={{ ...light, ...{ backgroundColor: "red" }, ...redBoxShadow }} onClick={handleClickRed}></div>
             <div style={{ ...light, ...{ backgroundColor: "yellow" }, ...yellowBoxShadow }} onClick={handleClickYellow}></div>
             <div style={{ ...light, ...{ backgroundColor: "green" }, ...greenBoxShadow }} onClick={handleClickGreen}></div>
         </>

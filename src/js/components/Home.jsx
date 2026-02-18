@@ -1,5 +1,4 @@
 import React from "react";
-
 import TrafficLight from "./TrafficLight";
 
 // Styles
@@ -34,7 +33,6 @@ const Home = () => {
 			<div style={containerBottom}>
 				<TrafficLight />
 			</div>
-
 		</div>
 	);
 };
