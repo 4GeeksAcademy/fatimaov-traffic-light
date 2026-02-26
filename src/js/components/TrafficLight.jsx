@@ -6,6 +6,7 @@ const light = {
     width: "150px",
     height: "150px",
     borderRadius: "100%",
+    cursor: "pointer",
 }
 
 function TrafficLight() {
@@ -21,6 +22,8 @@ function TrafficLight() {
             setRedBoxShadow(isOn)
             setYellowBoxShadow(isOff)
             setGreenBoxShadow(isOff)
+        } else {
+            setRedBoxShadow(isOff)
         }
     }
 
@@ -29,6 +32,8 @@ function TrafficLight() {
             setYellowBoxShadow(isOn)
             setRedBoxShadow(isOff)
             setGreenBoxShadow(isOff)
+        } else {
+            setYellowBoxShadow(isOff)
         }
     }
 
@@ -37,6 +42,8 @@ function TrafficLight() {
             setGreenBoxShadow(isOn)
             setRedBoxShadow(isOff)
             setYellowBoxShadow(isOff)
+        } else {
+            setGreenBoxShadow(isOff)
         }
     }
 
