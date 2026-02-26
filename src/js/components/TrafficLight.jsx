@@ -42,9 +42,9 @@ function TrafficLight() {
 
     return (
         <>
-            <div style={{ ...light, ...{ backgroundColor: "red" }, ...redBoxShadow }} onClick={handleClickRed}></div>
-            <div style={{ ...light, ...{ backgroundColor: "yellow" }, ...yellowBoxShadow }} onClick={handleClickYellow}></div>
-            <div style={{ ...light, ...{ backgroundColor: "green" }, ...greenBoxShadow }} onClick={handleClickGreen}></div>
+            <div style={{ ...light, backgroundColor: "red", ...redBoxShadow }} onClick={handleClickRed}></div>
+            <div style={{ ...light, backgroundColor: "yellow", ...yellowBoxShadow }} onClick={handleClickYellow}></div>
+            <div style={{ ...light, backgroundColor: "green", ...greenBoxShadow }} onClick={handleClickGreen}></div>
         </>
     )
 }
